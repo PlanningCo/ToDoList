@@ -21,6 +21,8 @@ class ToDoViewController: UITableViewController {
     var todo: ToDo?
     
 
+  let array = [3,4,4,5]
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
