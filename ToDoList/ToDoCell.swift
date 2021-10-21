@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc protocol ToDoCellDelegate: class {
+@objc protocol ToDoCellDelegate: class{
     func checkmarkTapped(sender: ToDoCell)
 }
 
@@ -23,6 +23,7 @@ class ToDoCell: UITableViewCell {
         delegate?.checkmarkTapped(sender: self)
     }
     
+    let string = "Hello world"
     
     
     override func awakeFromNib() {
