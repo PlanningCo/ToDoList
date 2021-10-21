@@ -20,8 +20,7 @@ class ToDoViewController: UITableViewController {
     var isEndDatePickerHidden = true
     var todo: ToDo?
     
-    let number=3
-    //this is a random comment.......
+  let array = [3,4]
     
     override func viewDidLoad() {
         super.viewDidLoad()
